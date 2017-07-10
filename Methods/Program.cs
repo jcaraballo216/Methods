@@ -34,9 +34,20 @@ namespace Methods
             //string myFriendBirthMonth = "october";
             //string myVehicle = Vehicle(myBirthMonth);
             //string myFriendVehicle = Vehicle(myFriendBirthMonth);
-            
+
             //Console.WriteLine("My future vehicle is {0} and Jordans future {1}.", myVehicle, myFriendVehicle);
-        }
+
+        //    Console.WriteLine("What is your name?");
+        //    string name = Console.ReadLine().ToUpper();
+        //    Console.WriteLine("What is your favorite food?");
+        //    string food = Console.ReadLine().ToUpper();
+        //    FavoriteFood(name, food);
+
+        //    Console.WriteLine("How old are you?");
+        //    int age = int.Parse(Console.ReadLine());
+        //    RetirementCalculator(age);
+
+        //}
         //Method Header
         //Access Modifier - Return Type - Method Name (in Pascal Case) - Parantheses (sometimes with parameters)
         //public static int Add(int firstnumber, int secondNumber)     //example
@@ -75,8 +86,28 @@ namespace Methods
         //    return vehicleFortune;
   
             
-        }
+        //}
+    //Create a method called FavoriteFood
+    //It should take two string parameters. One representing a name, and the other representing a favorite food.
+    //The return type should concatenate
 
+    //Create a method called RetirementCalculator
+    //It should take an int as a parameter representing the users age
+    //The method should calculate how many more years until the user retires using 65 as the age of retirement.
+    //the return type should be void
+    //Once it calculates the users retirement age it should print
+    //"The user will retire in x years" where x represents the value that was calculated
+
+    //public static void FavoriteFood(string name, string food)
+    //{
+    //    Console.WriteLine(name + " favorite food is " + food);
+    //}
+    //    public static int RetirementCalculator(int age)
+    //    {
+    //        int retirementAge = (65 - age);
+    //        Console.WriteLine("The user will retire in " + retirementAge + " years.");
+    //        return retirementAge;
+    //    }
             
 
         
