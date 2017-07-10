@@ -52,6 +52,13 @@ namespace Methods
             //double hourlyWage = 12.50d;
 
             //Console.WriteLine(WageCalculator(hoursWorked, hourlyWage));
+
+            //Console.WriteLine("What is your favorite car?");
+            //string carName = Console.ReadLine().ToUpper();
+            //FavoriteCar(carName);
+            int monthDay = 1;
+            int year = 2017;
+            Console.WriteLine("Your birthday is " + (BirthMonth(monthDay, year)));
         }
 
 
@@ -123,6 +130,23 @@ namespace Methods
     ////        double monthlyWage = (hoursWorkedWeekly * 52 * hourlyWage) / 12;
     ////        return monthlyWage;
     ////    }
+
+        //create two methods of you choosing. At least one of the methods should have a non-void return type.
+        //Both of the methods should take at least one parameter
+        //Remember when naming your method that it should represent what your method does.
+        //Your method should only aim to accomplish one thing
+        //be creative
+
+        //public static void FavoriteCar(string carName)
+        //{
+        //    Console.WriteLine("Your favorite car is " + carName + ".");
+        //}
+
+        public static int BirthMonth(int monthDay, int year)
+        {
+            int birthDay = (monthDay + year);
+            return birthDay;
+        }
             
 
         
