@@ -37,15 +37,24 @@ namespace Methods
 
             //Console.WriteLine("My future vehicle is {0} and Jordans future {1}.", myVehicle, myFriendVehicle);
 
-        //    Console.WriteLine("What is your name?");
-        //    string name = Console.ReadLine().ToUpper();
-        //    Console.WriteLine("What is your favorite food?");
-        //    string food = Console.ReadLine().ToUpper();
-        //    FavoriteFood(name, food);
+            //    Console.WriteLine("What is your name?");
+            //    string name = Console.ReadLine().ToUpper();
+            //    Console.WriteLine("What is your favorite food?");
+            //    string food = Console.ReadLine().ToUpper();
+            //    FavoriteFood(name, food);
 
-        //    Console.WriteLine("How old are you?");
-        //    int age = int.Parse(Console.ReadLine());
-        //    RetirementCalculator(age);
+            //    Console.WriteLine("How old are you?");
+            //    int age = int.Parse(Console.ReadLine());
+            //    RetirementCalculator(age);
+
+
+            //double hoursWorked = 42.3d;
+            //double hourlyWage = 12.50d;
+
+            //Console.WriteLine(WageCalculator(hoursWorked, hourlyWage));
+        }
+
+
 
         //}
         //Method Header
@@ -108,6 +117,12 @@ namespace Methods
     //        Console.WriteLine("The user will retire in " + retirementAge + " years.");
     //        return retirementAge;
     //    }
+    ////public static double WageCalculator(double hoursWorkedWeekly , double hourlyWage)
+    ////    {
+    ////        //This method should calculate the Monthly Wage.
+    ////        double monthlyWage = (hoursWorkedWeekly * 52 * hourlyWage) / 12;
+    ////        return monthlyWage;
+    ////    }
             
 
         
